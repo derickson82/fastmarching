@@ -23,7 +23,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-class OptimalPath implements ActionListener {
+public class OptimalPath implements ActionListener {
   DomainPanel domainSpacePanel; // contains the domain space
   JPanel shapePalettePanel; // contains the shapes that can be placed as
                             // obstacles
